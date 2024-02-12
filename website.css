@@ -1,0 +1,145 @@
+* {
+  padding: 0px;
+  margin: 10;
+  box-sizing: border-box;
+}
+.ftmcolor {
+  background-color: rgba(251, 165, 60, 0.842);
+  margin-top: 0px;
+  padding: 20px;
+}
+/* 9999999999999999999999999999999999999999999999999999999 */
+/* nav class color */
+/* .ftmlinkdisine {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+/* .phone:hover {
+  text-decoration-line: underline;
+  padding-bottom: 5px;
+  color: rgba(234, 63, 24, 0.437);
+} */
+.ftmfix {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+  background-color: orange;
+}
+/* 888888888888888888888888888888888888888888888 */
+.an {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+.an::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100;
+  height: 2px;
+  background-color: black;
+  transform: scaleX(0);
+  transition: transform 03s ease;
+}
+.an:hover::after {
+  transform: scaleX(1);
+}
+/* 888888888888888888888888888888888888888888888888 */
+/* articele css */
+.h1orenge {
+  color: rgb(237, 51, 5);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.fontparticele {
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
+}
+.marginleft {
+  margin-left: 90px;
+}
+
+.artyclehr {
+  color: rgb(255, 5, 5);
+  border: 2px solid;
+  /* margin-left: 20px; */
+  /* text-align: center; */
+}
+
+/* end artecele */
+/* start main cart left */
+.h5orange {
+  font-weight: 700;
+  font-size: 20px;
+}
+.pcardleft {
+  color: rgb(23, 18, 18);
+  font-size: 60px;
+  font-weight: 500;
+}
+.smalpleft {
+  font-size: 15px;
+  font-weight: 690;
+}
+/* end main crd left */
+.positionkh {
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+}
+/* start style part2 */
+.pleft {
+  font-size: 20px;
+  width: 500;
+}
+.pleft2 {
+  color: gray;
+  margin-right: 10px;
+}
+.parentright {
+  width: 60%;
+  display: flex;
+}
+.parentleft {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .positionkh {
+    flex-direction: column;
+  }
+  .parentleft {
+    flex-direction: row;
+    margin-left: 0px;
+  }
+  .iconleft {
+    display: none;
+  }
+}
+.over {
+  overflow: hidden;
+}
+@media (mix-with: 2560px) {
+  .img {
+    width: 20%;
+  }
+}
+.rotate {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  color: olive;
+  height: 10px;
+}
+/* css form pagesungup start */
+#form {
+  margin-left: 40px;
+  padding-top: 50px;
+  background-color: rgb(244, 195, 104);
+}
+/* holiday page */
