@@ -39,10 +39,3 @@ async function getResturantDiscreptoStringn() {
 }
 getResturantDiscreptoStringn();
 ////////////////////////////////////////////////
-// stsrt handel hamberger menu
-const menu = document.querySelector('.hamberger')
-console.log(menu);
-menu.addEventListener('click',(e)=>{
-  // menu.style.backgrandColor = "red"
-  console.log("oo");
-})
